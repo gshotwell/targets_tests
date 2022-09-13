@@ -4,9 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-This is an example project which shows you how to use targets to conditionally test files when either the file or the test file has been run. 
-
-## Example
+This is an example project which shows you how to use targets to conditionally test files when either the file or the test file have been changed. 
 
 To run the tests in this package use `targets::tar_make()` initially this will run all of the tests in the package, but subsequent runs will only test changed files. This can be very convenient for large packages with lots of long running tests. 
 
